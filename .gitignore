@@ -1,0 +1,15 @@
+# Ambiente Virtuale (Il più importante!)
+.venv/
+venv/
+ENV/
+
+# File compilati di Python (velocizzano l'esecuzione ma non servono su GitHub)
+**/__pycache__/
+*.py[cod]
+
+# File di sistema Mac
+.DS_Store
+
+# File di dati (se sono molto grandi, meglio non caricarli)
+*.csv
+*.xlsx
