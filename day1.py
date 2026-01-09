@@ -206,7 +206,7 @@ print(f"The letter \"e\" is found at index {txt1.index('e')} in the string.")
 isalpha(txt)
 print(f"The string contains only alphabetic characters: \n{txt.isalpha()}")
 
-upper(txt)
+(txt)
 print(txt.upper())
 print(f"I said: {txt.upper()}!!!")
 
