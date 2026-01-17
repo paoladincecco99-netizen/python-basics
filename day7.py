@@ -13,11 +13,11 @@ celsius1 = (temp1 - 32) * 5 / 9
 print(celsius1)
 
 temp2 = 96
-celsius1 = (temp2 - 32) * 5 / 9
+celsius2 = (temp2 - 32) * 5 / 9
 print(celsius2)
 
 temp3 = 50
-celsius1 = (temp3 - 32) * 5 / 9
+celsius3 = (temp3 - 32) * 5 / 9
 print(celsius3)
 
 def fahrenheit_to_celsius(fahrenheit):
@@ -74,7 +74,7 @@ fruit_function(my_fruits)
 def my_ffunction(person):
     print("Name:", person["name"])
 my_person = {"name": "Paola", "surname": "La Porta"}
-mu_ffunction(my_person)
+my_ffunction(my_person)
 
 # Returning Values
 def my_new_function(x, y):
@@ -161,7 +161,7 @@ def function():
         x = 32
     function1()
     return x
-print function()
+print(function())
 
 #LEGB rule – Local, Enclosed, Global, Built-in
 x = "global"
